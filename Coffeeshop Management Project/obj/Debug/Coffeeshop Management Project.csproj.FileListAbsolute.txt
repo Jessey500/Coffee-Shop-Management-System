@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\bin\Debug\Coffeeshop Management Project.exe.config
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop Management Project.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Properties.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop Management Project.csproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Views.CustomarLogin.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\bin\Debug\Coffeeshop Management Project.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\bin\Debug\Coffeeshop Management Project.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop Management Project.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop Management Project.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Views.RegisterCustomer.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Views.CustomerLogin.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Views.DashboardCustomerForm.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Coffeeshop Management Project\Coffeeshop Management Project\obj\Debug\Coffeeshop_Management_Project.Views.Coffee_Type.resources
