@@ -35,13 +35,13 @@
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.GridViewCoffee = new System.Windows.Forms.DataGridView();
-            this.comboBoxCType = new System.Windows.Forms.ComboBox();
-            this.comboBoxQuantity = new System.Windows.Forms.ComboBox();
-            this.labelQuantity = new System.Windows.Forms.Label();
             this.C_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.C_Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBoxCType = new System.Windows.Forms.ComboBox();
+            this.comboBoxQuantity = new System.Windows.Forms.ComboBox();
+            this.labelQuantity = new System.Windows.Forms.Label();
             this.textBoxTotal = new System.Windows.Forms.TextBox();
             this.label1Total = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GridViewCoffee)).BeginInit();
@@ -118,6 +118,27 @@
             this.GridViewCoffee.Name = "GridViewCoffee";
             this.GridViewCoffee.Size = new System.Drawing.Size(431, 196);
             this.GridViewCoffee.TabIndex = 8;
+            this.GridViewCoffee.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridViewCoffee_CellClick);
+            // 
+            // C_ID
+            // 
+            this.C_ID.HeaderText = "C_ID";
+            this.C_ID.Name = "C_ID";
+            // 
+            // C_Type
+            // 
+            this.C_Type.HeaderText = "C_Type";
+            this.C_Type.Name = "C_Type";
+            // 
+            // Price
+            // 
+            this.Price.HeaderText = "Price";
+            this.Price.Name = "Price";
+            // 
+            // Quantity
+            // 
+            this.Quantity.HeaderText = "Quantity";
+            this.Quantity.Name = "Quantity";
             // 
             // comboBoxCType
             // 
@@ -161,26 +182,6 @@
             this.labelQuantity.Size = new System.Drawing.Size(65, 16);
             this.labelQuantity.TabIndex = 11;
             this.labelQuantity.Text = "Quantity";
-            // 
-            // C_ID
-            // 
-            this.C_ID.HeaderText = "C_ID";
-            this.C_ID.Name = "C_ID";
-            // 
-            // C_Type
-            // 
-            this.C_Type.HeaderText = "C_Type";
-            this.C_Type.Name = "C_Type";
-            // 
-            // Price
-            // 
-            this.Price.HeaderText = "Price";
-            this.Price.Name = "Price";
-            // 
-            // Quantity
-            // 
-            this.Quantity.HeaderText = "Quantity";
-            this.Quantity.Name = "Quantity";
             // 
             // textBoxTotal
             // 

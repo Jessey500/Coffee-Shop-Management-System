@@ -39,15 +39,5 @@ namespace Coffeeshop_Management_Project.Controllers
             return db.Customers.UpdateCustomer(customer);
         }
 
-        /*public static bool DeleteCustomer(string username)
-        {
-            return db.Customers.DeleteCustomer(username);
-        }*/
-
-        /*public static ArrayList GetAllCustomers()
-        {
-            return db.Customers.GetAllCustomers();
-        }*/
-
     }
 }

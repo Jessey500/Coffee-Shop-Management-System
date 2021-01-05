@@ -45,28 +45,6 @@ namespace Coffeeshop_Management_Project.Models
             conn.Close();
             return customer;
         }
-       /* public ArrayList GetAllCustomers()
-        {
-            ArrayList customers = new ArrayList();
-            conn.Open();
-            string query = "SELECT * FROM Customers";
-            SqlCommand cmd = new SqlCommand(query, conn);
-            SqlDataReader reader = cmd.ExecuteReader();
-            while (reader.Read())
-            {
-                Customer user = new Customer();
-                user = new Customer();
-                user.Id = reader.GetInt32(reader.GetOrdinal("Id"));
-                user.Name = reader.GetString(reader.GetOrdinal("Name"));
-                user.Username = reader.GetString(reader.GetOrdinal("Username"));
-                user.Password = reader.GetString(reader.GetOrdinal("Password"));
-                customers.Add(user);
-            }
-            conn.Close();
-            return customers;
-        }*/
-
- 
 
         public Customer GetCustomer(string username)
         {
@@ -96,15 +74,6 @@ namespace Coffeeshop_Management_Project.Models
             if (r > 0) return true;
             return false;
         }
-        /*public bool DeleteCustomer(string username)
-        {
-            conn.Open();
-            string query = String.Format("DELETE FROM Customers WHERE Username='{0}'", username);
-            SqlCommand cmd = new SqlCommand(query, conn);
-            int r = cmd.ExecuteNonQuery();
-            conn.Close();
-            if (r > 0) return true;
-            return false;
-        }*/
+       
     }
 }

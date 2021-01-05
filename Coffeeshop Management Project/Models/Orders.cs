@@ -61,13 +61,6 @@ namespace Coffeeshop_Management_Project.Models
                 order.Item_Price = reader.GetString(reader.GetOrdinal("Item_Price"));
                 order.Customer_Id = reader.GetString(reader.GetOrdinal("Customer_Id"));
                 orders.Add(order);
-               
-               /* order.Order_no = reader.GetString(reader.GetOrdinal("Order_no"));
-                order.item1 = reader.GetString(reader.GetOrdinal("item1"));
-                order.item2 = reader.GetString(reader.GetOrdinal("item2"));
-                order.item3 = reader.GetString(reader.GetOrdinal("item3"));
-                order.item4 = reader.GetString(reader.GetOrdinal("item4"));
-                order.item5 = reader.GetString(reader.GetOrdinal("item5"));*/
                 orders.Add(order);
             }
             conn.Close();
@@ -95,16 +88,7 @@ namespace Coffeeshop_Management_Project.Models
             conn.Close();
             return order;
         }
-      /*  public bool UpdateOrder(Order order)
-        {
-            conn.Open();
-            string query = String.Format("UPDATE As SET Order_no='{0}'  WHERE Item='{1}'", order.order_no, order.item);
-            SqlCommand cmd = new SqlCommand(query, conn);
-            int r = cmd.ExecuteNonQuery();
-            conn.Close();
-            if (r > 0) return true;
-            return false;
-        }*/
+      
         public bool DeleteOrder(string item)
         {
             conn.Open();

@@ -17,7 +17,7 @@ namespace Coffeeshop_Management_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CustomerLogin());
+            Application.Run(new Coffee_Type());
         }
     }
 }

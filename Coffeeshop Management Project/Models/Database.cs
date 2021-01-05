@@ -13,6 +13,7 @@ namespace Coffeeshop_Management_Project.Models
         public Customers Customers { get; set; }
         public Orders Orders { get; set; }
         public Items Items { get; set; }
+      
         
         public Database()
         {
@@ -21,6 +22,7 @@ namespace Coffeeshop_Management_Project.Models
             Customers = new Customers(conn);
             Orders = new Orders(conn);
             Items = new Items(conn);
+           
 
         }
     }
